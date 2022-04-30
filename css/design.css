@@ -1,0 +1,118 @@
+#column-1{
+    padding: 200px 0 50px 0;
+}
+#column-2,#column-3{
+    padding: 150px 0 150px 0;
+}
+#column-1 h1,#column-2 h1,#column-3 h1{
+    margin-bottom: 1.8em;
+    text-align: center;
+}
+.col-md-4 .item{
+    height: 312px;
+    margin: 12px 0.2vw ;
+    -webkit-appearance: none;
+}
+.col-md-6 .item{
+    margin: 12px 0.2vw ;
+}
+
+.item-image{
+    height: 240px;
+    -webkit-appearance: none;
+}
+.item-banner img{
+    width: 100%;
+}
+#design-1 .item-image{
+    background:url('../image/design-1-cover.gif') center center no-repeat scroll;
+    background-size: cover;}
+#design-2 .item-image{
+    background:url('../image/design-2-cover.jpg') center center no-repeat scroll;
+    background-size: cover;}
+#design-3 .item-image{
+    background:url('../image/design-3-cover.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
+#design-4 .item-image{
+    background:url('../image/design-4-cover.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
+#design-5 .item-image{
+    background:url('../image/design-5-cover.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
+#design-6 .item-image{
+    background:url('../image/design-6-cover.jpg') center center no-repeat scroll;
+    background-size: cover;
+}
+
+.item-title{
+    text-align: left;
+    padding: 10px 0;
+}
+.item-title span{
+    -webkit-appearance: none;
+}
+.item-label{
+    float:left;
+    display: inline-block;
+}
+.item-link{
+    float:right;
+    display: inline-block;
+    -webkit-appearance: none;
+}
+.collapse{
+    display:block;
+    padding-top: 1.5em;
+}
+.item-link svg{
+    -webkit-appearance: none;
+}
+.item-link svg path:hover,.item-link svg path:active{
+    fill:#8A53FF;
+}
+.item-link svg path:visited{
+    fill: var(--secondary);
+}
+
+.Label-1,.Label-2{
+    border-radius: 4px;
+    padding: 4px 8px;
+    /*white-space: nowrap;*/
+}
+.Label-1{
+    background: var(--primary);
+}
+.Label-2{
+    background: var(--secondary);
+}
+.item-title .Heading-6{
+    margin-right: 0.5em;
+}
+.item-title .Text-Small{
+    white-space: nowrap;
+}
+
+.card{
+    margin-bottom: 1em;
+}
+
+.btn-1{
+    background-color:var(--primary);
+    border-radius: 4px;
+    padding: 4px 8px;
+    white-space: nowrap;
+    -webkit-appearance: none;
+}
+a{
+    text-decoration:none;
+}
+.btn-1:hover,.btn-1:active{
+    background-color: var(--secondary);
+    border-radius: 4px;
+}
+.card-body .Heading-6{
+    margin-bottom: 1em;
+}

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family:XiquewudongmianTiJianTi;
+    src:url("../webfonts/XiquewudongmianTiJianTi.woff");
+}
+
+
+:root {
+    --black:
+            rgba(0, 0, 0, 1);
+    --eerie-black:
+            rgba(26, 26, 26, 1);
+    --gray-700:
+            rgba(114, 114, 114, 1);
+    --gray-500:
+            rgba(161, 161, 161, 1);
+    --secondary:
+            rgba(167, 218, 54, 1);
+    --gray-300:
+            rgba(208, 208, 208, 1);
+    --primary:
+            rgba(227, 237, 85, 1);
+    --white:
+            rgba(255, 255, 255, 1);
+
+    --font-size-xxs: 11px;
+    --font-size-xs: 14px;
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 24px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 38px;
+
+}
+
+
+
+
+.Text-Small{
+    color: var(--gray-500);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+}
+.Text-Normal{
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+}
+.Text-Normal-Gray{
+    color: var(--gray-700);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+}
+.Heading-1 {
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 50px;
+}
+
+.Heading-2 {
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 38px;
+}
+
+.Heading-3 {
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 34px;
+}
+.Heading-4 {
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.Heading-6 {
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 22px;
+}
+.Heading-7 {
+    color: var(--black);
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+}
+
+/*———————header———————*/
+header{
+    position: absolute;
+    height: 80px;
+    left: 0;
+    background:var(--primary);
+    margin:0;
+}
+
+#main-logo-wide{
+    height: 26px;
+    width: 170px;
+    display: inline-block;
+    margin-top: 27px;
+    -webkit-appearance: none;
+}
+
+#menu-items {
+    display:flex;
+    justify-content: right;
+    align-content: space-between;
+    margin-top: 27px;
+
+}
+
+#menu-index,#menu-design,#menu-photography,#menu-more{
+    display: inline-block;
+    flex: none;
+    padding: 0 1vw;
+}
+
+
+a{
+    color: black;
+}
+a:hover,a:active{
+    color: #8A53FF;
+}
+
+/*——————body————————*/
+body{
+    margin:0 80px;
+}
+
+/*———————footer———————*/
+footer{
+    position: absolute;
+    height: 80px;
+    left: 0;
+    background:var(--white);
+    margin:0;
+}
+
+#main-logo-wide-f{
+    height: 26px;
+    width: 170px;
+    display: inline-block;
+    margin-top: 27px;
+    -webkit-appearance: none;
+}
+
+#menu-items-f {
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 27px;
+
+}
+@media screen and (max-width:768px){
+    #menu-items-f{display:none;}  /*【确定一下断点；媒体查询功能！好厉害】*/
+    #text-hello-2{font-size: var(--font-size-m);}
+}
+#menu-index-f,#menu-design-f,#menu-photography-f,#menu-more-f{
+    display: inline-block;
+    flex: none;
+    margin: 0 12px;
+
+}
+a{
+    white-space:nowrap;
+}
+#qidai{
+    margin-top: 27px;
+    float:right;
+}
+#qidai span{
+    white-space:nowrap; /*【不要每次都取个id啦！有更方便的调用方式啊！】*/
+}
+
+

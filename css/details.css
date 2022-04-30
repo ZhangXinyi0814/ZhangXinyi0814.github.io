@@ -1,0 +1,47 @@
+#column-1{
+    padding: 150px 0 50px 0;
+}
+#column-1 .Heading-3{
+    padding-bottom: 1.2em;
+}
+.Text-Normal-Gray{
+   text-align: left;
+    padding-bottom: 1.6em;
+}
+.Text-Normal{
+    padding-bottom: 0.6em;
+}
+.detail-image{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2em;
+}
+.detail-image1{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2em;
+}
+#column-2{
+    padding-bottom: 8em;
+}
+.arrow svg{
+    margin:1em 0.8em 3em 0.8em;
+}
+.arrow,.text{
+    display:inline-block;
+}
+.prev-link,.next-link{
+    display:inline-block;
+    white-space: nowrap;
+    -webkit-appearance: none;
+}
+.next-link{
+    float: right;
+    text-align: right;
+}
+.prev-link .text div:hover,.next-link .text div:hover{
+    color: #8A53FF;
+}
+.prev-link .arrow svg path:hover,.next-link .arrow svg path:hover{
+    fill: #8A53FF;
+}
